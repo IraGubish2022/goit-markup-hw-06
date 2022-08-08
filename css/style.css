@@ -225,6 +225,7 @@ body {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -518,6 +519,7 @@ button:focus {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+  padding-right: 24px;
 }
 .flex-element-menu {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -586,6 +588,7 @@ button:focus {
 .list-wrapper {
   display: block;
   width: 370px;
+  text-decoration: none;
 }
 .img-wrapper {
   position: relative;
@@ -671,7 +674,8 @@ button:focus {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border: none;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-btn-send:hover,
 .footer-btn-send:focus {
@@ -768,6 +772,7 @@ button:focus {
   letter-spacing: 0.03em;
   color: var(--contacts-color);
   margin-bottom: 30px;
+  margin-left: 12px;
 }
 .modal-form-check-desc::before {
   display: block;
@@ -800,7 +805,7 @@ button:focus {
   padding: 0;
   overflow: hidden;
   border: 0;
-  clip: rect(0 0 0);
+  clip: rect(0, 0, 0, 0);
 }
 .modal-form-check:focus + .modal-form-check-desc::before {
  outline: #2196F3;
@@ -812,8 +817,8 @@ button:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 55px;
+  padding-right: 55px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -825,6 +830,7 @@ button:focus {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 .modal-form-submit:hover,
 .modal-form-submit:focus {
